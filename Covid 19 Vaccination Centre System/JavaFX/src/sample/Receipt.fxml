@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.text.Font?>
+
+<AnchorPane prefHeight="544.0" prefWidth="635.0" xmlns="http://javafx.com/javafx/16" xmlns:fx="http://javafx.com/fxml/1" fx:controller="sample.ReceiptController">
+   <children>
+      <Label alignment="CENTER" layoutX="178.0" layoutY="-1.0" prefHeight="66.0" prefWidth="291.0" text="RECEIPT">
+         <font>
+            <Font name="SF Atarian System Extended" size="44.0" />
+         </font>
+      </Label>
+      <Label alignment="CENTER_RIGHT" layoutX="134.0" layoutY="108.0" prefHeight="39.0" prefWidth="137.0" text="Name :">
+         <font>
+            <Font name="SF Atarian System Extended" size="28.0" />
+         </font>
+      </Label>
+      <Label fx:id="lblName" layoutX="277.0" layoutY="109.0" prefHeight="39.0" prefWidth="306.0" textFill="#2894ae">
+         <font>
+            <Font name="SF Atarian System Extended" size="22.0" />
+         </font>
+      </Label>
+      <Label alignment="CENTER_RIGHT" layoutX="29.0" layoutY="167.0" prefHeight="39.0" prefWidth="243.0" text="Vaccination Type :">
+         <font>
+            <Font name="SF Atarian System Extended" size="28.0" />
+         </font>
+      </Label>
+      <Label fx:id="lblVaccinationType" layoutX="282.0" layoutY="167.0" prefHeight="39.0" prefWidth="306.0" textFill="#277fae">
+         <font>
+            <Font name="SF Atarian System Extended" size="22.0" />
+         </font>
+      </Label>
+      <Label alignment="CENTER_RIGHT" layoutX="30.0" layoutY="226.0" prefHeight="39.0" prefWidth="243.0" text="Booth NO :">
+         <font>
+            <Font name="SF Atarian System Extended" size="28.0" />
+         </font>
+      </Label>
+      <Label fx:id="lblBoothNumber" layoutX="281.0" layoutY="224.0" prefHeight="39.0" prefWidth="306.0" textFill="#2f8d94">
+         <font>
+            <Font name="SF Atarian System Extended" size="22.0" />
+         </font>
+      </Label>
+      <Label fx:id="lblDate" alignment="CENTER" layoutX="88.0" layoutY="431.0" prefHeight="57.0" prefWidth="476.0" textFill="#27837b">
+         <font>
+            <Font name="SF Atarian System Extended" size="25.0" />
+         </font>
+      </Label>
+      <Label alignment="CENTER_RIGHT" layoutX="29.0" layoutY="277.0" prefHeight="39.0" prefWidth="243.0" text="Address :">
+         <font>
+            <Font name="SF Atarian System Extended" size="28.0" />
+         </font>
+      </Label>
+      <Label fx:id="lblBoothNumber1" layoutX="283.0" layoutY="277.0" prefHeight="39.0" prefWidth="325.0" text="No.54 Pesalai Road Mannar">
+         <font>
+            <Font name="SF Atarian System Extended" size="22.0" />
+         </font>
+      </Label>
+      <Label alignment="CENTER_RIGHT" layoutX="30.0" layoutY="326.0" prefHeight="39.0" prefWidth="243.0" text="Tele NO :">
+         <font>
+            <Font name="SF Atarian System Extended" size="28.0" />
+         </font>
+      </Label>
+      <Label fx:id="lblBoothNumber11" alignment="CENTER" layoutX="277.0" layoutY="327.0" prefHeight="39.0" prefWidth="256.0" text="+94773446687">
+         <font>
+            <Font name="SF Atarian System Extended" size="22.0" />
+         </font>
+      </Label>
+   </children>
+</AnchorPane>

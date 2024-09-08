@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.TextField?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.text.Font?>
+
+<AnchorPane prefHeight="576.0" prefWidth="735.0" xmlns="http://javafx.com/javafx/16" xmlns:fx="http://javafx.com/fxml/1" fx:controller="sample.PatientDetailsController">
+   <children>
+      <Label alignment="CENTER" layoutX="239.0" layoutY="14.0" prefHeight="60.0" prefWidth="254.0" text="Patient Details">
+         <font>
+            <Font name="SF Atarian System Extended" size="32.0" />
+         </font>
+      </Label>
+      <Label alignment="CENTER_RIGHT" layoutX="209.0" layoutY="102.0" prefHeight="35.0" prefWidth="123.0" text="First Name :">
+         <font>
+            <Font name="SF Atarian System Extended" size="18.0" />
+         </font>
+      </Label>
+      <TextField fx:id="txtFirstName" layoutX="346.0" layoutY="107.0" prefHeight="25.0" prefWidth="181.0" promptText="Enter First Name" />
+      <Label alignment="CENTER_RIGHT" layoutX="209.0" layoutY="149.0" prefHeight="35.0" prefWidth="123.0" text="Sur Name :">
+         <font>
+            <Font name="SF Atarian System Extended" size="18.0" />
+         </font>
+      </Label>
+      <TextField fx:id="txtSurName" layoutX="347.0" layoutY="154.0" prefHeight="25.0" prefWidth="181.0" promptText="Enter Sur Name" />
+      <Label alignment="CENTER_RIGHT" layoutX="209.0" layoutY="191.0" prefHeight="35.0" prefWidth="123.0" text="Age :">
+         <font>
+            <Font name="SF Atarian System Extended" size="18.0" />
+         </font>
+      </Label>
+      <TextField layoutX="347.0" layoutY="198.0" prefHeight="25.0" prefWidth="181.0" promptText="Enter the Age" />
+      <Label alignment="CENTER_RIGHT" layoutX="210.0" layoutY="238.0" prefHeight="35.0" prefWidth="123.0" text="City :">
+         <font>
+            <Font name="SF Atarian System Extended" size="18.0" />
+         </font>
+      </Label>
+      <TextField layoutX="347.0" layoutY="245.0" prefHeight="25.0" prefWidth="181.0" promptText="Enter the City" />
+      <Label alignment="CENTER_RIGHT" layoutX="144.0" layoutY="287.0" prefHeight="35.0" prefWidth="189.0" text="NIC / Passport NO :">
+         <font>
+            <Font name="SF Atarian System Extended" size="18.0" />
+         </font>
+      </Label>
+      <TextField layoutX="346.0" layoutY="292.0" prefHeight="25.0" prefWidth="181.0" promptText="Enter NIC / Passport NO" />
+      <Label alignment="CENTER_RIGHT" layoutX="145.0" layoutY="334.0" prefHeight="35.0" prefWidth="189.0" text="Vaccination Type :">
+         <font>
+            <Font name="SF Atarian System Extended" size="18.0" />
+         </font>
+      </Label>
+      <TextField fx:id="txtVaccinationType" layoutX="346.0" layoutY="340.0" prefHeight="25.0" prefWidth="181.0" promptText="Enter Vaccination Type" />
+      <Label alignment="CENTER_RIGHT" layoutX="144.0" layoutY="381.0" prefHeight="35.0" prefWidth="189.0" text="Booth Number :">
+         <font>
+            <Font name="SF Atarian System Extended" size="18.0" />
+         </font>
+      </Label>
+      <TextField fx:id="txtBoothNumber" layoutX="345.0" layoutY="386.0" prefHeight="25.0" prefWidth="181.0" promptText="Enter Booth NO" />
+      <Button fx:id="btnGenerateReceipt" alignment="CENTER" layoutX="280.0" layoutY="442.0" mnemonicParsing="false" onAction="#receiptWindowAppear" prefHeight="49.0" prefWidth="172.0" text="Generate Receipt" textFill="#e11111">
+         <font>
+            <Font name="SF Atarian System Extended" size="16.0" />
+         </font>
+      </Button>
+   </children>
+</AnchorPane>
